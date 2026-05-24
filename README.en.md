@@ -3,6 +3,7 @@
 `Scratch AI Coach` networked desktop client is an open source companion app for `Scratch Desktop`. It does not modify the upstream Scratch source code. Instead, it launches Scratch in a controlled way, injects a read-only bridge, renders real Scratch-style blocks, and reads next-step hints from the teaching server based on the learner's current project.
 
 This repository is the split-out **networked desktop client** repo.
+Cross-repo docs, architecture notes, and planning now live in [`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs/blob/main/README.en.md).
 
 ## Why This Project Exists
 
@@ -68,7 +69,7 @@ npm run dev
 
 - Project structure: [`docs/project-structure.en.md`](docs/project-structure.en.md)
 - Releasing: [`docs/releasing.en.md`](docs/releasing.en.md)
-- Roadmap: [`docs/roadmap.en.md`](docs/roadmap.en.md)
+- Cross-repo docs and planning: [`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs/blob/main/README.en.md)
 - Engineering docs index: [`docs/README.zh-CN.md`](docs/README.zh-CN.md)
 - Desktop app docs: [`apps/desktop-companion/README.md`](apps/desktop-companion/README.md)
 - Verification tooling docs: [`tools/verification/README.zh-CN.md`](tools/verification/README.zh-CN.md)
@@ -84,13 +85,8 @@ Contributions are welcome through issues, pull requests, docs improvements, and 
 
 ## Future Direction
 
-The long-term direction includes:
-
-- a stronger desktop release and community workflow
-- a teaching-oriented open source server edition
-- tighter links between the app, verification tooling, and example teaching projects
-
-See [`docs/roadmap.en.md`](docs/roadmap.en.md) for the current direction.
+Cross-repo planning now lives in [`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs/blob/main/README.en.md).
+This repository stays focused on the networked desktop client, client-side packaging, and the student-facing server flow.
 
 ## License
 

@@ -3,6 +3,7 @@
 `Scratch AI 教练` 联机桌面客户端是一个面向 `Scratch Desktop` 的开源桌面伴随工具。它不会改动 Scratch 官方源码，而是通过受控启动、只读桥接和原版积木渲染，帮助学生在本机创作时看清“当前角色程序”，并把当前进度发送到服务器获取下一步提示。
 
 当前仓库是拆分后的 **联机桌面客户端仓**。
+跨仓库文档、总体架构和路线图已迁到 [`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs) 统一维护。
 
 ## 为什么做这个项目
 
@@ -68,7 +69,7 @@ npm run dev
 
 - 仓库结构：[`docs/project-structure.zh-CN.md`](docs/project-structure.zh-CN.md)
 - 发布与出包：[`docs/releasing.zh-CN.md`](docs/releasing.zh-CN.md)
-- 路线图：[`docs/roadmap.zh-CN.md`](docs/roadmap.zh-CN.md)
+- 跨仓库文档与规划：[`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs)
 - 工程文档索引：[`docs/README.zh-CN.md`](docs/README.zh-CN.md)
 - 桌面端说明：[`apps/desktop-companion/README.md`](apps/desktop-companion/README.md)
 - 验证工具说明：[`tools/verification/README.zh-CN.md`](tools/verification/README.zh-CN.md)
@@ -84,13 +85,8 @@ npm run dev
 
 ## 未来方向
 
-未来希望在这个项目基础上继续开源：
-
-- 更稳定的联机桌面端发行与社区协作流程
-- 与服务器端协议更清晰的同步机制
-- 与课程、验证工具、示例工程更紧密的开源工作流
-
-具体节奏见 [`docs/roadmap.zh-CN.md`](docs/roadmap.zh-CN.md)。
+跨仓库层面的总体规划已经转到 [`scratch-ai-docs`](https://github.com/scratchai-labs/scratch-ai-docs) 统一维护。
+当前仓主要继续维护联机桌面端、联机配置和与服务器的学生端交互。
 
 ## 许可证
 
